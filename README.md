@@ -9,13 +9,13 @@ This project focuses on analyzing the impact of a promotional banner on user con
 This repository contains the following files and resources:
 
 1. **SQL Code for EDA and A/B Testing:**
-   - `EDA_AB_Testing.sql`: SQL scripts used to perform Exploratory Data Analysis (EDA) and A/B testing on the dataset. This script includes data cleaning, transformations, and statistical tests (T-test and Z-test) used in the analysis.
+   - `AB_Testing_EDA.sql`: SQL scripts used to perform Exploratory Data Analysis (EDA) and A/B testing on the dataset. This script includes data cleaning, transformations, and statistical tests (T-test and Z-test) used in the analysis.
 
 2. **Tableau Dashboard:**
-   - `dashboard.twbx`: Tableau workbook containing the dashboard used to visualize the results of the A/B test. The dashboard provides interactive insights into key metrics such as conversion rates, average purchase amounts, and user engagement across different user segments.
+   - `Dashboard.twbx`: Tableau workbook containing the dashboard used to visualize the results of the A/B test. The dashboard provides interactive insights into key metrics such as conversion rates, average purchase amounts, and user engagement across different user segments.
 
 3. **SQL Code for Dashboard Tables:**
-   - `dashboard_tables.sql`: SQL script used to generate the tables that were subsequently imported into Tableau for visualization. This script includes the creation of aggregated views used to drive the dashboard’s insights.
+   - `Dashboard_Tables.sql`: SQL script used to generate the tables that were subsequently imported into Tableau for visualization. This script includes the creation of aggregated views used to drive the dashboard’s insights.
 
 4. **Original Data Files:**
    - `users.csv`: Contains user demographics, including unique user IDs, country codes, and gender.
@@ -39,11 +39,11 @@ This repository contains the following files and resources:
 ## How to Use
 
 1. **Run the SQL Scripts:**
-   - Execute `EDA_AB_Testing.sql` to perform the initial EDA and A/B test analysis.
+   - Execute `AB_Testing_EDA.sql` to perform the initial EDA and A/B test analysis.
    - Use `Dashboard_Tables.sql` to create the necessary tables for the Tableau dashboard.
 
 2. **Explore the Tableau Dashboard:**
-   - Open `dashboard.twbx` in Tableau to interact with the visualized results.
+   - Open `Dashboard.twbx` in Tableau to interact with the visualized results.
 
 3. **Data Files:**
    - The `users.csv`, `groups.csv`, and `activity.csv` files contain the raw data used for this analysis. These can be used to replicate the analysis or to perform further investigations.
