@@ -1,9 +1,9 @@
 # GloBox (e commerce company) A/B Testing Analysis
 
-Project Overview
+##Project Overview
 This project focuses on analyzing the impact of a promotional banner on user conversion rates and overall engagement within the food and drink category for GloBox, an e-commerce platform. The primary objective of the A/B test was to determine whether the banner increased user awareness and revenue. The analysis was conducted using SQL and Tableau, with extensive Exploratory Data Analysis (EDA) to ensure data quality and accurate insights.
 
-Repository Contents
+##Repository Contents
 This repository contains the following files and resources:
 
 SQL Code for EDA and A/B Testing:
