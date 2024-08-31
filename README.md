@@ -22,20 +22,6 @@ This repository contains the following files and resources:
    - `groups.csv`: Details the A/B test group assignments, including user IDs, group designations (Control or Treatment), join dates, and device types.
    - `activity.csv`: Captures user purchasing activity, including purchase dates, devices used, and amounts spent.
 
-## Key Insights
-
-1. **Overall Impact of the Banner:**
-   - The promotional banner led to an increase in conversion rates but did not significantly boost the average purchase amount. In some regions, particularly Turkey, the banner had a negative impact on women's spending, with the average purchase value for women dropping from **$4.46** to **$4.13**.
-
-2. **Device-Specific Performance:**
-   - iOS users showed higher responsiveness to the banner in terms of both conversion rates and average spending. However, Android users did not respond as positively, indicating a need for device-specific optimizations.
-
-3. **Gender-Based Insights:**
-   - Women were generally more likely to make purchases across all devices, but in the Treatment group, their average spend decreased after exposure to the banner compared to the Control group, highlighting potential issues with the banner's effectiveness.
-
-4. **Geographical Variations:**
-   - 50% of the top 10 countries showed a decrease in average purchase value, with no consistent pattern by region, suggesting that the banner’s impact varied significantly across different markets.
-
 ## How to Use
 
 1. **Run the SQL Scripts:**
@@ -48,8 +34,21 @@ This repository contains the following files and resources:
 3. **Data Files:**
    - The `users.csv`, `groups.csv`, and `activity.csv` files contain the raw data used for this analysis. These can be used to replicate the analysis or to perform further investigations.
 
-## Conclusion
+## Key Insights
 
+1. **Overall Impact of the Banner:**
+   - The promotional banner led to an increase in conversion rates but did not significantly boost the average purchase amount. In some regions, particularly Turkey, the banner had a negative impact on women's spending, with the average purchase value for women dropping from **$4.46** to **$4.13**.
+
+2. **Device-Specific Performance:**
+   - iOS users showed higher responsiveness to the banner in terms of both conversion rates and average spending. However, Android users did not respond as positively, indicating a need for device-specific optimizations.
+
+3. **Gender-Based Insights:**
+   - Women were generally more likely to make purchases across all devices, but in the Treatment group, their average spend decreased after exposure to the banner compared to the Control group, highlighting potential issues with the banner's effectiveness.
+
+4. **Geographical Variations:**
+   - 50% of the top 10 countries showed a decrease in average purchase value, with no consistent pattern by region, suggesting that the banner’s impact varied significantly across different markets.'
+   
+## Conclusion
 The findings from this project provide actionable insights into the effectiveness of the promotional banner, with specific recommendations for device-specific optimizations, gender-based targeting, and localized marketing strategies. The provided SQL scripts and Tableau dashboard offer a comprehensive view of the analysis and can be adapted for similar projects.
 
 ## Author
